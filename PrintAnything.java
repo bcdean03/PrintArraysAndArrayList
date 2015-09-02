@@ -9,8 +9,8 @@ public class PrintAnything{
         if(array.length == 0){
             System.out.println("Array contains nothing");
         }else {
-            for(T element: array){
-                System.out.print(element + " ");
+            for(T elem: array){
+                System.out.print(elem + " ");
             }
         }
     }
@@ -19,8 +19,8 @@ public class PrintAnything{
         if(list.size() == 0){
             System.out.println("ArrayList contains nothing");
         } else {
-            for (T element : list) {
-                System.out.print(element + " ");
+            for (T elem : list) {
+                System.out.print(elem + " ");
             }
         }
     }
